@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1445px;
+    margin: 0 auto;
+}
+
+.dole-hole {
+    color: #070707;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.dole-hole:hover {
+    background-color: #070707;
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+.lolipop {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.lolipop:hover {
+    background-color: #070707;
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+.nav__inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 25px;
+    font-family: Gilroy-Bold;
+    color: #828282;
+    max-width: 1200px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.line {
+    width: 1150px;
+    height: 0;
+    border: 0.5px solid #828282;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.title__text {
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+}
+
+.title__text1 {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+}
+
+.port {
+    margin: 0 auto;
+    width: 1200px;
+    height: 387px;
+    display: flex;
+}
+
+.about {
+    margin-top: 150px;
+    background-color: #f6f6f6;
+    height: 500px;
+}
+
+.title__about {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+}
+
+.title__about1 {
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+}
+
+.Skills {
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title__skills {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.text__skills {
+    font-family: Gilroy-Medium;
+}
+
+.cards {
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
+.text__skills1 {
+    font-size: 14px;
+    font-family: Gilroy-Bold;
+    color: #828282;
+}
+
+.fa-star {
+    padding-bottom: 100px;
+}
+
+.Portfolio {
+    background-color: #f6f6f6;
+    height: 2200px;
+}
+
+.Portfolio__container {
+    padding-bottom: 100px;
+}
+
+.Portfolio__title {
+    padding-top: 100px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+}
+
+.text__Portfolio {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.img11 {
+    width: 940px;
+    height: 512px;
+}
+
+.FAQ {
+    height: 500px;
+    padding-top: 100px;
+}
+
+.FAQ__title {
+    font-family: Gilroy-Bold;
+}
+
+.FAQ__text {
+    font-family: Gilroy-Medium;
+}
+
+.FAQ__button {
+    background-color: #202020;
+    color: #fff;
+    padding: 5px 20px 5px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.FAQ__button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.FAQ__cards {
+    padding-top: 100px;
+}
+
+.FAQ__icons {
+    font-size: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
+.FAQ__text1 {
+    padding-top: 50px;
+    color: #828282;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+
+.FAQ__icons a {
+    color: #070707;
+}
